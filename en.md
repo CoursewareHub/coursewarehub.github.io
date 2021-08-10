@@ -4,6 +4,8 @@
 
 layout: home
 title: About CoursewareHub
+sidebar:
+  nav: main
 ---
 
 *TBD - 英語に翻訳*
