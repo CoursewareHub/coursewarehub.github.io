@@ -10,6 +10,8 @@ sidebar:
 
 *TBD - 英語に翻訳*
 
+*TBD Star*
+
 CoursewareHubとは、国立情報学研究所にて開発している **講義に特化した[JupyterHub](https://jupyter.org/hub)のディストリビューション** です。
 
 # CoursewareHubの特徴
@@ -68,7 +70,7 @@ CoursewareHubを利用するには以下のいずれかの方法でセットア�
 
 [学認クラウドオンデマンド構築サービス アプリケーションテンプレート](https://github.com/nii-gakunin-cloud/ocs-templates)にある[講義演習環境テンプレート](https://github.com/nii-gakunin-cloud/ocs-templates/tree/master/CoursewareHub)を利用することでCoursewareHubを構築することができます。
 
-利用には [学認クラウドオンデマンド構築サービス](https://cloud.gakunin.jp/ocs/) への接続申込みが必要です。
+> 利用には [学認クラウドオンデマンド構築サービス](https://cloud.gakunin.jp/ocs/) への接続申込みが必要です。
 
 ## オンプレミス環境に構築する
 
