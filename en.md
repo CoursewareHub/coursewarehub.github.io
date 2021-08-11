@@ -20,7 +20,7 @@ JupyterHubを利用する場合、ユーザ認証をどのように設定する�
 現在は大学の統合アカウントの他、GoogleアカウントやMicrosoftアカウントのような、パブリッククラウドのユーザアカウントを持つ場合も多いものの、
 講義でJupyterHubを利用する場合は、その講義の履修者のみに利用可能にしたいといった要求もあります。
 
-![認証連携](/assets/images/auth.png){: .align-center}
+![認証連携](assets/images/auth.png){: .align-center}
 
 CoursewareHubではこのような特定のグループにのみ利用を許可するため、以下の機能を提供します。
 
@@ -35,7 +35,7 @@ Jupyter Notebookを講義に利用したい場合は Google Colab も選択肢�
 ユーザ間のデータ共有はGoogle Driveの機能やLMS(Learning Management System)を利用する必要があり、
 受講者自身がこれらのサービスを意識して利用する必要があります。
 
-![データ集約・配信機能](/assets/images/sharing.png){: .align-center}
+![データ集約・配信機能](assets/images/sharing.png){: .align-center}
 
 CoursewareHubではこのようなデータ集約を容易に行うことができます。
 
@@ -50,7 +50,7 @@ CoursewareHubでは外部サービスを利用することなくこれらのデ�
 Jupyter NotebookはWebブラウザから簡単にプログラミングを試せる反面、Fork爆弾のような危険なコードを気楽に実行できてしまう問題があります。
 リソース制限を適切に定義しないと、このようなコードの実行は受講者本人の環境だけでなく、JupyterHub全体に影響を及ぼしてしまいます。
 
-![リソース制御](/assets/images/limits.png){: .align-center}
+![リソース制御](assets/images/limits.png){: .align-center}
 
 CoursewareHubではこのようなリソース制御を容易に行うことができます。
 
