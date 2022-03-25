@@ -9,7 +9,7 @@ sidebar:
 ---
 
 <!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/yacchin1205/website-draft" data-icon="octicon-star" data-show-count="true" aria-label="Star yacchin1205/website-draft on GitHub">Star</a>
+<a class="github-button" href="https://github.com/CoursewareHub/website-draft" data-icon="octicon-star" data-show-count="true" aria-label="Star CoursewareHub/website-draft on GitHub">Star</a>
 
 CoursewareHubとは、国立情報学研究所にて開発している **講義に特化した[JupyterHub](https://jupyter.org/hub)のディストリビューション** です。
 
