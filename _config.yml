@@ -22,15 +22,18 @@ title: CoursewareHub
 description: >- # this means to ignore newlines until "baseurl:"
   CoursewareHubは、国立情報学研究所にて開発している 講義に特化したJupyterHubの
   ディストリビューション です。
-baseurl: "/website-draft" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  CoursewareHub
 
+repository: CoursewareHub/coursewarehub.github.io
+
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
