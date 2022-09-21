@@ -73,4 +73,4 @@ CoursewareHubを利用するには以下のいずれかの方法でセットア�
 
 ## オンプレミス環境に構築する
 
-Amazon EC2インスタンスや、オンプレミス環境へのセットアップ手順は現在準備中です。
+Amazon EC2インスタンスや、オンプレミス環境にセットアップするには、[構築用Jupyter Notebook](https://github.com/NII-cloud-operation/CoursewareHub-LC_deploy)をご参照ください。
