@@ -74,3 +74,8 @@ CoursewareHubを利用するには以下のいずれかの方法でセットア�
 ## オンプレミス環境に構築する
 
 Amazon EC2インスタンスや、オンプレミス環境にセットアップするには、[構築用Jupyter Notebook](https://github.com/NII-cloud-operation/CoursewareHub-LC_deploy)をご参照ください。
+
+<hr>
+
+| :spiral_notepad: :fountain_pen:  [`問い合わせ (Issueを作成する）`](https://github.com/CoursewareHub/coursewarehub.github.io/issues) |
+|:-------:|
