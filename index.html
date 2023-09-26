@@ -1,0 +1,469 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>CoursewareHubとは - CoursewareHub</title>
+<meta name="description" content="CoursewareHubは、国立情報学研究所にて開発している 講義に特化したJupyterHubの ディストリビューション です。">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="CoursewareHub">
+<meta property="og:title" content="CoursewareHubとは">
+<meta property="og:url" content="/">
+
+
+  <meta property="og:description" content="CoursewareHubは、国立情報学研究所にて開発している 講義に特化したJupyterHubの ディストリビューション です。">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CoursewareHub Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="stylesheet" href="/assets/css/custom.css">
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  </head>
+
+  <body class="layout--home">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          CoursewareHub
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">CoursewareHubとは [JA]</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox">
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/"><span class="nav__sub-title">CoursewareHubとは [JA]</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">CoursewareHubとは</h1>
+    
+    <!-- Place this tag where you want the button to render. -->
+<p><a class="github-button" href="https://github.com/CoursewareHub/coursewarehub.github.io" data-icon="octicon-star" data-show-count="true" aria-label="Star CoursewareHub/coursewarehub.github.io on GitHub">Star</a></p>
+
+<p>CoursewareHubは、国立情報学研究所にて開発している <strong>講義に特化した<a href="https://jupyter.org/hub">JupyterHub</a>のディストリビューション</strong> です。</p>
+
+<h1 id="coursewarehubの特徴">CoursewareHubの特徴</h1>
+
+<h2 id="既存システムとの連携性">既存システムとの連携性</h2>
+
+<p>JupyterHubを利用する場合、ユーザ認証をどのように設定するかが大きな課題となります。
+現在は大学の統合アカウントの他、GoogleアカウントやMicrosoftアカウントのような、パブリッククラウドのユーザアカウントを持つ場合も多いものの、
+講義でJupyterHubを利用する場合は、その講義の履修者のみに利用可能にしたいといった要求もあります。</p>
+
+<p><img src="/assets/images/auth.png" alt="認証連携" class="align-center"></p>
+
+<p>CoursewareHubではこのような特定のグループにのみ利用を許可するため、以下の機能を提供します。</p>
+
+<ul>
+  <li>学認クラウドゲートウェイによるグループ単位での許可</li>
+  <li>LTIによるLMSコースメンバーのみの許可</li>
+</ul>
+
+<p>CoursewareHubではこれらの設定を容易に行うことができ、面倒なユーザ許可を簡単に、適切に行うことができます。</p>
+
+<h2 id="強力なデータ集約配信機能">強力なデータ集約・配信機能</h2>
+
+<p>Jupyter Notebookを講義に利用したい場合は Google Colab も選択肢となります。Google ColabはGoogleアカウントさえあれば利用可能な簡便性がある一方で、
+ユーザ間のデータ共有はGoogle Driveの機能やLMS(Learning Management System)を利用する必要があり、
+受講者自身がこれらのサービスを意識して利用する必要があります。</p>
+
+<p><img src="/assets/images/sharing.png" alt="データ集約・配信機能" class="align-center"></p>
+
+<p>CoursewareHubではこのようなデータ集約を容易に行うことができます。</p>
+
+<ul>
+  <li>受講者の実行ログ・回答をリアルタイムに集約</li>
+  <li>講師から受講者に講義資料を配信</li>
+</ul>
+
+<p>CoursewareHubでは外部サービスを利用することなくこれらのデータ集約・配信を行うことができます。Jupyter Notebookで動作する独自拡張・独自カーネルに
+より、受講者のより詳細な振る舞いを収集、分析するようなLearning Analyticsの実践も可能です。</p>
+
+<h2 id="安定稼働のためのリソース制御">安定稼働のためのリソース制御</h2>
+
+<p>Jupyter NotebookはWebブラウザから簡単にプログラミングを試せる反面、Fork爆弾のような危険なコードを気楽に実行できてしまう問題があります。
+リソース制限を適切に定義しないと、このようなコードの実行は受講者本人の環境だけでなく、JupyterHub全体に影響を及ぼしてしまいます。</p>
+
+<p><img src="/assets/images/limits.png" alt="リソース制御" class="align-center"></p>
+
+<p>CoursewareHubではこのようなリソース制御を容易に行うことができます。</p>
+
+<ul>
+  <li>リソース制限テンプレートの初期設定・カスタマイズ情報の提供</li>
+  <li>Jupyter Notebookのカーネルレベルでの制限</li>
+</ul>
+
+<p>CoursewareHubはこのようなリソース制御のテンプレートを提供し、リソース制御の設定し忘れを防ぎます。
+また、Jupyter Notebookで動作する独自開発したカーネルにより、カーネル最大数などより細やかな制限も可能です。</p>
+
+<h1 id="coursewarehubを利用する">CoursewareHubを利用する</h1>
+
+<p>CoursewareHubを利用するには以下のいずれかの方法でセットアップする必要があります。</p>
+
+<h2 id="学認クラウドオンデマンド構築サービスを使って構築する">学認クラウドオンデマンド構築サービスを使って構築する</h2>
+
+<p><a href="https://github.com/nii-gakunin-cloud/ocs-templates">学認クラウドオンデマンド構築サービス アプリケーションテンプレート</a>にある<a href="https://github.com/nii-gakunin-cloud/ocs-templates/tree/master/CoursewareHub">講義演習環境テンプレート</a>を利用することでCoursewareHubを構築することができます。</p>
+
+<blockquote>
+  <p>利用には <a href="https://cloud.gakunin.jp/ocs/">学認クラウドオンデマンド構築サービス</a> への接続申込みが必要です。</p>
+</blockquote>
+
+<h2 id="オンプレミス環境に構築する">オンプレミス環境に構築する</h2>
+
+<p>Amazon EC2インスタンスや、オンプレミス環境にセットアップするには、<a href="https://github.com/NII-cloud-operation/CoursewareHub-LC_deploy">構築用Jupyter Notebook</a>をご参照ください。</p>
+
+<hr>
+
+<p><img class="emoji" title=":spiral_notepad:" alt=":spiral_notepad:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f5d2.png" height="20" width="20"> <img class="emoji" title=":fountain_pen:" alt=":fountain_pen:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f58b.png" height="20" width="20">  <a href="https://github.com/CoursewareHub/coursewarehub.github.io/issues"><code class="language-plaintext highlighter-rouge">問い合わせ (Issueを作成する）</code></a></p>
+
+
+<h3 class="archive__subtitle">Recent Posts</h3>
+
+
+
+
+<div class="entries-list">
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2022/12/12/axies.html" rel="permalink">AXIES2022年次大会にてCoursewareHubのご紹介をします
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">AXIES2022年次大会にて、CoursewareHubの開発状況について国立情報学研究所 政谷よりご紹介します。
+
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2022/08/05/seminar.html" rel="permalink">2022年度 情報処理技術セミナー(クラウド編)にてCoursewareHubを体験いただきました
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">2022年度 情報処理技術セミナー(クラウド編)にて、受講生の皆さまにCoursewareHubを体験いただきました。
+
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2022/05/20/deploy.html" rel="permalink">CoursewareHub構築手順Notebookを公開しました
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Jupyter Notebookベースの「実行可能な」手順書形式による構築手順の配布を開始しました。
+
+</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2021/08/10/gunma-u.html" rel="permalink">CoursewareHub利用事例 - 群馬大学 井上先生
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">CoursewareHubの利用事例を国立情報学研究所 学術基盤オープンフォーラム2021にて
+群馬大学・数理データ科学教育研究センター 井上先生にCoursewareHubの利用事例をご紹介いただきました！
+
+</p>
+  </article>
+</div>
+
+  
+</div>
+
+
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 CoursewareHub. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

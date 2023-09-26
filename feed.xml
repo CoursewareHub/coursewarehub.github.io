@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-09-26T09:44:49+00:00</updated><id>/feed.xml</id><title type="html">CoursewareHub</title><subtitle>CoursewareHubは、国立情報学研究所にて開発している 講義に特化したJupyterHubの ディストリビューション です。</subtitle><entry><title type="html">AXIES2022年次大会にてCoursewareHubのご紹介をします</title><link href="/2022/12/12/axies.html" rel="alternate" type="text/html" title="AXIES2022年次大会にてCoursewareHubのご紹介をします" /><published>2022-12-12T06:00:00+00:00</published><updated>2022-12-12T06:00:00+00:00</updated><id>/2022/12/12/axies</id><content type="html" xml:base="/2022/12/12/axies.html">&lt;p&gt;AXIES2022年次大会にて、CoursewareHubの開発状況について国立情報学研究所 政谷よりご紹介します。&lt;/p&gt;
+
+&lt;p&gt;詳細は &lt;a href=&quot;https://oss.axies.jp/activity/y2022/kikaku202212a/&quot;&gt;OSS企画セッション1 Jupyter等の環境を用いたプログラミング教育支援の現状&lt;/a&gt; をご覧ください。&lt;/p&gt;
+
+&lt;p&gt;「CoursewareHub: Jupyter Notebookによる講義・演習環境」と題して、Jupyter Notebookを用いた講義・演習を運営するための環境CoursewareHub、国立情報学研究所で独自に開発・拡張している機能についてご紹介する予定です。&lt;/p&gt;</content><author><name></name></author><category term="event" /><summary type="html">AXIES2022年次大会にて、CoursewareHubの開発状況について国立情報学研究所 政谷よりご紹介します。</summary></entry><entry><title type="html">2022年度 情報処理技術セミナー(クラウド編)にてCoursewareHubを体験いただきました</title><link href="/2022/08/05/seminar.html" rel="alternate" type="text/html" title="2022年度 情報処理技術セミナー(クラウド編)にてCoursewareHubを体験いただきました" /><published>2022-08-05T06:00:00+00:00</published><updated>2022-08-05T06:00:00+00:00</updated><id>/2022/08/05/seminar</id><content type="html" xml:base="/2022/08/05/seminar.html">&lt;p&gt;2022年度 情報処理技術セミナー(クラウド編)にて、受講生の皆さまにCoursewareHubを体験いただきました。&lt;/p&gt;
+
+&lt;p&gt;以下のようなカリキュラムで、CoursewareHubで学生がどんな体験をできるのか、環境の構築にはどのような作業をする必要があるのかをご体験いただきました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10:30−12:00（90分）	【実習１】CoursewareHubの機能を使ってみよう&lt;/li&gt;
+  &lt;li&gt;13:30−15:00（90分）	【実習２】CoursewareHubを構築してみよう（Ⅰ）&lt;/li&gt;
+  &lt;li&gt;15:15−16:45（90分）	【実習３】CoursewareHubを構築してみよう（Ⅱ）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;情報処理技術セミナーは来年度も実施する予定です。もしご興味がある方は &lt;a href=&quot;https://contents.nii.ac.jp/hrd/joho-karuizawa-cloud&quot;&gt;情報処理技術セミナー（クラウド編）&lt;/a&gt; のウェブサイトを定期的にご確認ください。&lt;/p&gt;</content><author><name></name></author><category term="event" /><summary type="html">2022年度 情報処理技術セミナー(クラウド編)にて、受講生の皆さまにCoursewareHubを体験いただきました。</summary></entry><entry><title type="html">CoursewareHub構築手順Notebookを公開しました</title><link href="/2022/05/20/deploy.html" rel="alternate" type="text/html" title="CoursewareHub構築手順Notebookを公開しました" /><published>2022-05-20T06:00:00+00:00</published><updated>2022-05-20T06:00:00+00:00</updated><id>/2022/05/20/deploy</id><content type="html" xml:base="/2022/05/20/deploy.html">&lt;p&gt;Jupyter Notebookベースの「実行可能な」手順書形式による構築手順の配布を開始しました。&lt;/p&gt;
+
+&lt;p&gt;AWS上に作業用の&lt;a href=&quot;https://github.com/NII-cloud-operation/OperationHub&quot;&gt;OperationHub&lt;/a&gt;と、CoursewareHubを構築する手順となります。&lt;/p&gt;
+
+&lt;p&gt;この手順を参考に、オンプレミス環境など、他の環境への配備に応用することもできます。詳細は以下をご参照ください:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/NII-cloud-operation/CoursewareHub-LC_deploy&quot;&gt;CoursewareHubの構築notebook&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;本手順は、2022年度 情報処理技術セミナー(クラウド編)でもご紹介をする予定です:&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://contents.nii.ac.jp/hrd/joho-karuizawa-cloud/2022/result&quot;&gt;情報処理技術セミナー（クラウド編） 令和4年度　テーマ：CoursewareHub – Jupyter Notebook による講義・演習環境&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="Notebook" /><summary type="html">Jupyter Notebookベースの「実行可能な」手順書形式による構築手順の配布を開始しました。</summary></entry><entry><title type="html">CoursewareHub利用事例 - 群馬大学 井上先生</title><link href="/2021/08/10/gunma-u.html" rel="alternate" type="text/html" title="CoursewareHub利用事例 - 群馬大学 井上先生" /><published>2021-08-10T01:00:00+00:00</published><updated>2021-08-10T01:00:00+00:00</updated><id>/2021/08/10/gunma-u</id><content type="html" xml:base="/2021/08/10/gunma-u.html">&lt;p&gt;CoursewareHubの利用事例を国立情報学研究所 学術基盤オープンフォーラム2021にて
+&lt;strong&gt;群馬大学・数理データ科学教育研究センター 井上先生&lt;/strong&gt;にCoursewareHubの利用事例をご紹介いただきました！&lt;/p&gt;
+
+&lt;p&gt;資料は以下のリンクからご参照いただけます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nii.ac.jp/openforum/upload/20210707PM_Cloud2_03.pdf&quot;&gt;&lt;img src=&quot;../../../assets/images/20210707PM_Cloud2_03_pdf.png&quot; alt=&quot;CoursewareHubを利用した授業: Python入門&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="利用例" /><category term="群馬大学" /><summary type="html">CoursewareHubの利用事例を国立情報学研究所 学術基盤オープンフォーラム2021にて 群馬大学・数理データ科学教育研究センター 井上先生にCoursewareHubの利用事例をご紹介いただきました！</summary></entry></feed>
