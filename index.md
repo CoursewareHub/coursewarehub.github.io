@@ -77,5 +77,4 @@ Amazon EC2インスタンスや、オンプレミス環境にセットアップ�
 
 <hr>
 
-| :spiral_notepad: :fountain_pen:  [`問い合わせ (Issueを作成する）`](https://github.com/CoursewareHub/coursewarehub.github.io/issues) |
-|:-------:|
+:spiral_notepad: :fountain_pen:  [`問い合わせ (Issueを作成する）`](https://github.com/CoursewareHub/coursewarehub.github.io/issues) 
